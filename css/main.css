@@ -598,6 +598,7 @@ font-family: "Roboto";
 background-color: transparent;
 background-color: #1a1c1d;
 z-index: 2;
+pointer-events: none;
 text-transform: uppercase;
 color: #FCAF17;
 }
@@ -981,4 +982,12 @@ backdrop-filter: blur(15px);
 #thanks-plan .descr-modal,
 #thanks-callback .descr-modal {
 	margin-bottom: 10px;
+}
+/*youtube video inside fancybox*/
+      .fancybox-type-iframe .fancybox-inner {
+    height: auto !important;
+}
+    .fancybox-type-iframe iframe{
+  width: calc(100vw - 40px);
+  height: calc(100vw/1.77);
 }

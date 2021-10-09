@@ -816,7 +816,7 @@ border-bottom: 1px solid #fff;
 .sandwich {
 	width: 49px;
 	height:49px;
-	padding-top: 10px;
+	padding-top: 11px;
 	margin: auto;
 	border: 2px #fff solid;
 	display: -webkit-flex;

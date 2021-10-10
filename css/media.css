@@ -483,6 +483,9 @@ color: #FCAF17;
 .range-wrap .irs--flat.irs-with-grid {
 	margin-left: -59px;
 }
+.header {
+	z-index: 1000;
+}
 }
 
 /* Extra Small Devices, Phones */

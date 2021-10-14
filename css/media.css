@@ -486,6 +486,14 @@ color: #FCAF17;
 .header {
 	z-index: 1000;
 }
+/*youtube video inside fancybox*/
+      .fancybox-type-iframe .fancybox-inner {
+    height: auto !important;
+}
+    .fancybox-type-iframe iframe{
+  width: calc(100vw - 40px);
+  height: calc(100vw/1.77);
+}
 }
 
 /* Extra Small Devices, Phones */
